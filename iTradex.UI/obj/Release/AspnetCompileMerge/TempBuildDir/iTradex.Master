@@ -1,0 +1,183 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="iTradex.Master.cs" Inherits="iTradex.UI.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+
+  <meta charset="utf-8">
+    <title>iTradex</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+ 
+    <link rel="icon" type="image/ico" href="img/iTradex-Icon.png">
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+	<link href="css/iconMoon.css" rel="stylesheet"/>
+    <link href="css/animate.css" rel="stylesheet"/>
+	<link href="css/zebra_tooltips.css" rel="stylesheet"/>
+    <link href="css/introjs.css" rel="stylesheet"/>
+    
+	<link href="css/responsive.css" rel="stylesheet"/>
+	<noscript><link rel="stylesheet" type="text/css" href="css/noJS.css" /></noscript>
+
+    
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+   
+    </asp:ContentPlaceHolder>
+</head>
+
+<body> 
+    <header class="header">
+       <div class="wrapper"> 
+         
+           <div class="row-fluid">
+            <div class="span4">
+             <div class="logo">  <img src="../../img/MikaNew.png" style="width:35%; height:35%;"/> </div>
+             </div>
+            <div class="span4">
+              <p class="user" data-step="1" data-intro="This is your Username. You can modify your profile from the setting options ">Welcome, <a href="#" class="tooltips" title="Name of the Account Holder">
+                  <asp:PlaceHolder ID="PlaceHolder1" runat="server">
+                     <asp:Label ID="lblUserName" runat="server" Text=""></asp:Label>
+                  </asp:PlaceHolder>
+                  
+                  </a></p>
+            </div>
+            
+            <div class="span4">
+                <ul class="top_nav" data-step="2" data-intro="There are three options here. Contact, Settings and Logout ">
+                	<li><a href="#" title="Appearance can be easily customized both through JavaScript
+and/or CSS. Also, tooltips can be aligned left, center or right relative to the 
+parent element." class="iconb contact contactTooltips" data-icon="&#xe01d;"></a></li>
+                    <li>
+                        <a class="iconb settings iconb contact contactTooltips" data-icon="&#xe04d;" data-toggle="modal" href="#AccountModal" title="Change Password"></a>
+                   </li>
+                    <li>
+                    <asp:PlaceHolder ID="PlaceHolder2" runat="server">
+                        <a href="Logout.aspx" id="logout" title="Logout" class="iconb logout logoutTooltips" data-icon="&#xe09b;"></a>
+                        </asp:PlaceHolder>
+                    </li>
+                </ul>            
+            </div>
+           </div>
+         
+       </div>
+   </header>
+
+    <div>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+      <footer class="footer">
+    <aside class="top">
+      <div class="wrapper">
+        <div class="row-fluid">
+          <div class="span3">
+           <a class="fLogo"><div class="logo">
+         
+           </div></a>
+             <img src="../../img/iTradex-Logo-Footer.png" />
+           <h3 class="footerTitle ptb10">About</h3>
+            <p>iTradex is a cloud based portfolio service to allow the stock market investors to view their portfolio, account profile, market status and place trade orders and fund withdraw requistions.</p>
+           
+          </div>
+          <div class="span3">
+             <h3 class="footerTitle">Quick Links</h3>
+           <ul class="fNav">
+            	<li><a href=" http://dsebd.org/ " title=""><i class="icon-arrow-17"></i>Dhaka Stock Exchange</a></li>
+                <li><a href="http://cse.com.bd/" title=""><i class="icon-arrow-17"></i>Chittagong Stock Exchange</a></li>
+                <li><a href="http://www.sec.gov.bd/" title=""><i class="icon-arrow-17"></i> Securities and Exchange Commission</a></li>
+                <li><a href=" http://www.cdbl.com.bd/" title=""><i class="icon-arrow-17"></i> Central Depository Bangladesh Ltd.</a></li>
+              
+                <li></li>
+            </ul>
+          </div>
+          <div class="span3">
+           <h3 class="footerTitle">Resources</h3>
+             <ul class="fNav">
+            	<li><a href="#" title=""><i class="icon-arrow-17"></i> Resources 1</a></li>
+                <li><a href="#" title=""><i class="icon-arrow-17"></i> Resources 2</a></li>
+                <li><a href="#" title=""><i class="icon-arrow-17"></i> Resources 3</a></li>
+                <li><a href="#" title=""><i class="icon-arrow-17"></i> Resources 4</a></li>
+                <li><a href="#" title=""><i class="icon-arrow-17"></i> Resources 5</a></li>
+                <li></li>
+            </ul>
+          </div>
+          <div class="span3">
+           <h3 class="footerTitle">Contact Address</h3>
+                <ul class="cAddress">
+                	<li>Suite #8A. </li>
+                    <li>Haque Chamber. 89/2</li>
+                    <li>West Panthapath. </li>
+                    <li>Dhaka - 1215</li>
+                    <li>Tel: +8801730738355 (BD)</li>
+                
+                    <li>Email: info@bosl-int.com</li>
+                </ul>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <aside class="bottom">
+     <div class="wrapper">
+        <div class="row-fluid">
+          <div class="span6"> <p class="pt10">Copyright &copy; 2013-2014. <a href="http://bosl-int.com/"> Business Object Solutions Limited</a> All Rights Reserved.</p></div>
+          <%--<div class="span6">
+              <ul class="socialNav">
+                <li><span>Find Us On :</span></li>
+            	<li><a class="linkedIN" href="" title="Linked in"><img src="../../img/linkedin.png" alt=""/></a></li>
+                <li><a class="facebook" href="" title="facebook"><img src="../../img/facebook.png" alt=""/></a></li>
+                <li><a class="twitter" href="" title="twitter"><img src="../../img/twitter.png" alt=""/></a></li>
+                <li><a class="youtube" href="" title="youtube"><img src="../../img/youtube.png" alt=""/></a></li>
+             </ul>
+          </div>--%>
+         </div>
+      </div>
+    </aside>
+    <a href="#" class="scrollup"><i class="icon-arrow-16"></i></a> 
+  </footer>
+
+           <script type="text/javascript">
+               $(document).ready(function () {
+                   $(window).scroll(function () {
+                       if ($(this).scrollTop() > 800) {
+                           $('.scrollup').fadeIn();
+                       } else {
+                           $('.scrollup').fadeOut();
+                       }
+                   });
+                   $('.scrollup').click(function () {
+                       $("html, body").animate({ scrollTop: 0 }, 600);
+                       return false;
+                   });
+               });
+        </script>
+
+     
+
+  <%--  <header>
+       <div class="wrapper"> 
+         <div class="top_bar">
+           <div class="row-fluid">
+            <div class="span4">
+             <div class="logo"> <a href="#">&nbsp;Privacy Policy</a>&nbsp;|<a href="#">&nbsp;Terms &amp; Conditions</a> </div>
+             </div>
+            <div class="span4">
+              
+            </div>
+            
+            <div class="span4">
+                        
+            </div>
+           </div>
+         </div>
+       </div>
+   </header>--%>
+</body>
+</html>

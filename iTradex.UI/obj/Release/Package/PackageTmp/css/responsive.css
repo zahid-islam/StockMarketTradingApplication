@@ -1,0 +1,180 @@
+@media (max-width:768px) {
+    
+    
+.logo {
+    text-align: center;
+}
+
+.top_nav li {
+    display: inline-block;
+    float: none !important;
+    text-align: center;
+}
+
+.top_nav {
+    float: none !important;
+    text-align: center;
+    }
+    
+.tab {
+    float: none !important;
+   }
+   
+.tab li {
+    float:none !important;
+}
+.tab li a {
+    padding: 30px 0 7px;
+    text-align: center;
+}
+#signature{
+    margin-bottom: 30px;
+}
+
+.investor_pic {
+    display: block;
+    float: none !important;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.fLogo{
+    display:block;
+    text-align: center;
+} 
+.footer p{
+    text-align: center;
+}
+.footerTitle,.fNav li,.cAddress li{
+    text-align: center;
+}
+.footerTitle{
+    padding: 20px 0 0 0;
+}
+.scrollup{
+    bottom: 140px;
+}
+.socialNav{
+float: none !important;
+text-align: center;    
+}
+.fNav{
+    margin: 0 !important;
+}
+.fNav li{
+    margin-right:0;
+}
+
+
+}
+
+@media (max-width:685px) {
+    
+ .sidebar_widget_container, .widget_container {
+    padding: 20px 10px;
+}
+header > h2 {
+    font-size: 15px !important;   
+}
+
+.control > li > a {
+    padding: 8px !important;
+}
+.tagline1,.tagline2,.tagline3{
+    margin-bottom: 20px !important;
+}
+
+.t_r a {
+    padding: 36px 0 !important;
+}
+.res_view{
+    display:block !important;
+  }
+.desk_view{
+    display: none !important;
+  }
+ .tour_intro{
+    margin: 0 0 15px !important;
+    text-align: center;
+ }
+ .CrudModal
+{   
+    width:100% !important;
+    left:0% !important ;
+    
+    }
+
+
+ }
+ 
+@media (max-width:480px) {
+    
+ .dataTable { display: block; position: relative; width: 100%; }
+.dataTable thead tr th, .dataTable tbody tr td { border-top: 1px solid #dfdfdf; display: block; }
+.dataTable thead { display: block; float: left; }
+.dataTable thead tr { border-right: none; }
+.dataTable thead th { box-shadow: none!important; border-left: none!important; padding: 7px 11px!important; }
+.dataTable tbody { display: block; width: 160px; position: relative; overflow-x: auto; white-space: nowrap; }
+.dataTable tbody tr td { border-left: none; }
+.dataTable tbody td:first-child { border-top: none; }
+.dataTable tbody tr { border-top: none; border-left: 1px solid #dfdfdf; }
+.dataTable tbody tr:first-child { border-left: none; }
+.dataTable thead th:first-child { border-left: none; border-top: none; }
+.dataTable thead tr { display: block; border-right: 1px solid #dfdfdf; }
+.dataTable td { display: block; }
+.dataTable tbody tr { display: inline-block; vertical-align: top; border-left: 1px solid #dfdfdf; }
+.dataTable tbody tr:first-child { margin-left: 0; }
+.dataTable td { display: block; }
+.sorting, .sorting_asc, .sorting_desc { background-image: none; }
+.dataTables_filter label > span, .showentries { display: none; }
+.dataTables_filter input[type="text"] { margin-left: 0; width: 130px; margin-top: -1px; }
+.dataTables_info { display: none; }
+.dataTables_paginate { float: none; }
+.dataTables_paginate .previous, .dataTables_paginate .next { display: none; }
+.fg-toolbar { text-align: center; }
+
+table.dataTable td {
+    padding: 7px 5px;
+}
+.dataTable thead th {
+  
+    padding: 7px 21px 5px 2px !important;
+}
+
+tr.odd {
+    background-color: #E2E4FF;
+}
+#dt_example {
+    color: #333333;
+    font: 80%/1.45em "Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+}
+.dataTables_filter label > span {
+    display: none !important;
+ }
+ .dataTables_filter input[type="text"] {
+    margin-left: 0 !important;
+    width: 115px !important;
+     padding: 4px 20px 4px 7px !important;
+}
+label {
+    margin-bottom: 5px !important;
+}
+.dataTables_filter input[type="text"] {
+    margin-top: -3px !important;
+ }
+ .CrudModal
+{   
+    width:100% !important;
+    left:0% !important ;
+    
+    }
+    
+    .modal-body {
+    max-height:  345px !important;
+}
+
+
+.mb {
+    margin: -2px 0 !important;
+}
+ 

@@ -1,0 +1,836 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9C2A91D2-89C5-4506-A76C-501E24320DE8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>iTradex.UI</RootNamespace>
+    <AssemblyName>iTradex.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath />
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>12.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <FilesToIncludeForPublish>AllFilesInTheProject</FilesToIncludeForPublish>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <NoWarn>CS0436;</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\..\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="AjaxMin">
+      <HintPath>..\..\AjaxMin.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DSEParser">
+      <HintPath>..\..\DSEParser.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlAgilityPack.1.4.0\lib\Silverlight 4.0\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net35\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Trirand.Web">
+      <HintPath>..\..\Trirand.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ApprovedOriginal.aspx" />
+    <Content Include="css\blue.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\fontello.css" />
+    <Content Include="css\gray.css" />
+    <Content Include="css\green.css" />
+    <Content Include="css\jquery.fancybox-thumbs.css" />
+    <Content Include="css\jquery.fancybox.css" />
+    <Content Include="css\Newstyle.css" />
+    <Content Include="css\prettify.css" />
+    <Content Include="css\settings.css" />
+    <Content Include="img\iTradex Logo.png" />
+    <Content Include="img\iTradex-Icon.png" />
+    <Content Include="img\iTradex-Logo-Footer.png" />
+    <Content Include="img\logo-dark.png" />
+    <Content Include="img\MikaNew.png" />
+    <Content Include="LoginErrorPage.aspx" />
+    <Content Include="Pages\Investor\Approved.aspx" />
+    <Content Include="Pages\Investor\ClientSupport.aspx" />
+    <Content Include="css\datePicker.css" />
+    <Content Include="css\jquery-ui-1.8.19.custom.css" />
+    <Content Include="css\mika-style.css" />
+    <Content Include="css\mika-styles.css" />
+    <Content Include="img\facebook.png" />
+    <Content Include="img\linkedin.png" />
+    <Content Include="img\MikaSecuritiesDSE.png" />
+    <Content Include="img\twitter.png" />
+    <Content Include="img\youtube.png" />
+    <Content Include="Pages\Investor\Declined.aspx" />
+    <Content Include="Pages\Investor\ForgotPassword.aspx" />
+    <Content Include="Pages\Investor\FundWithdrawRequestBroker.aspx" />
+    <Content Include="Pages\Investor\IPOAplication.aspx" />
+    <Content Include="Pages\Investor\IpoReport.aspx" />
+    <Content Include="js\jquery.datePicker.js" />
+    <Content Include="Pages\Investor\Ipo.aspx" />
+    <Content Include="js\jquery.dataTables.editable.js" />
+    <Content Include="Pages\Investor\AllOrder.aspx" />
+    <Content Include="Pages\Investor\BrokerInformation.aspx" />
+    <Content Include="CrystalReportViewer.aspx" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\bootstrap-responsive.min.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\component.css" />
+    <Content Include="css\dark.css" />
+    <Content Include="css\dataTables.css" />
+    <Content Include="css\DoWebCaptcha.css" />
+    <Content Include="css\font.css" />
+    <Content Include="css\fonts\icomoon.svg" />
+    <Content Include="css\fonts\mourning.svg" />
+    <Content Include="css\iconMoon.css" />
+    <Content Include="css\ie.css" />
+    <Content Include="css\introjs.css" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="css\newsTicker.css" />
+    <Content Include="css\noJS.css" />
+    <Content Include="css\plugins.css" />
+    <Content Include="css\reset.css" />
+    <Content Include="css\responsive.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\styles.css" />
+    <Content Include="css\ui.daterangepicker.css" />
+    <Content Include="css\ui_custom.css" />
+    <Content Include="css\zebra_tooltips.css" />
+    <Content Include="images\div.png" />
+    <Content Include="images\down.png" />
+    <Content Include="images\leftArrow.png" />
+    <Content Include="images\loginControl.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\nav.png" />
+    <Content Include="images\nav_small.png" />
+    <Content Include="images\rightArrow.png" />
+    <Content Include="images\searchSmall.png" />
+    <Content Include="images\selectArrow.png" />
+    <Content Include="images\sort.png" />
+    <Content Include="images\sortDown.png" />
+    <Content Include="images\sortUp.png" />
+    <Content Include="images\sort_asc.png" />
+    <Content Include="images\sort_both.png" />
+    <Content Include="images\sort_desc.png" />
+    <Content Include="images\sort_desc_disabled.png" />
+    <Content Include="images\subArrow.png" />
+    <Content Include="images\tipsy.gif" />
+    <Content Include="images\up.png" />
+    <Content Include="images\updateDone.png" />
+    <Content Include="images\userLogin2.png" />
+    <Content Include="images\widgetDiv.png" />
+    <Content Include="img\addFiles.png" />
+    <Content Include="img\ajax-loader-metro.gif" />
+    <Content Include="img\as.png" />
+    <Content Include="img\body.jpg" />
+    <Content Include="img\body_bk.png" />
+    <Content Include="img\calculator.png" />
+    <Content Include="img\cancel.png" />
+    <Content Include="img\capital.png" />
+    <Content Include="img\checkboxes.png" />
+    <Content Include="img\contact-hover.png" />
+    <Content Include="img\contact.png" />
+    <Content Include="img\dashboard.png" />
+    <Content Include="img\deposit.png" />
+    <Content Include="img\down.png" />
+    <Content Include="img\favicon.png" />
+    <Content Include="img\glyphicons-halflings-white.png" />
+    <Content Include="img\glyphicons-halflings.png" />
+    <Content Include="img\info.png" />
+    <Content Include="img\investor-pic.png" />
+    <Content Include="img\investor-signature.png" />
+    <Content Include="img\iStock Broking_1366464526982.png" />
+    <Content Include="img\ledger.png" />
+    <Content Include="img\line-chart.png" />
+    <Content Include="img\log-out.png" />
+    <Content Include="img\loginControl.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\logout-hover.png" />
+    <Content Include="img\market_status.png" />
+    <Content Include="img\max.png" />
+    <Content Include="img\min.png" />
+    <Content Include="img\next.png" />
+    <Content Include="img\order.png" />
+    <Content Include="img\prev.png" />
+    <Content Include="img\ps.png" />
+    <Content Include="img\radios.png" />
+    <Content Include="img\registration-help.png" />
+    <Content Include="img\selectArrow.png" />
+    <Content Include="img\settings-hover.png" />
+    <Content Include="img\settings.png" />
+    <Content Include="img\signature.png" />
+    <Content Include="img\spinnerBottom.png" />
+    <Content Include="img\spinnerTop.png" />
+    <Content Include="img\tagline.png" />
+    <Content Include="img\tagline2.png" />
+    <Content Include="img\tagline3.png" />
+    <Content Include="img\time.png" />
+    <Content Include="img\tkdown.gif" />
+    <Content Include="img\tkup.gif" />
+    <Content Include="img\transaction.png" />
+    <Content Include="img\up.png" />
+    <Content Include="img\user.png" />
+    <Content Include="img\UserAvater.png" />
+    <Content Include="img\userLogin2.png" />
+    <Content Include="img\vertical-nav-active.png" />
+    <Content Include="img\widget-settings.png" />
+    <Content Include="js\bootstrap-alert.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\dataTables.fixedColumns.js" />
+    <Content Include="js\date.js" />
+    <Content Include="js\daterangepicker.jQuery.js" />
+    <Content Include="js\intro.js" />
+    <Content Include="js\jquery-1.9.1.min.js" />
+    <Content Include="js\jquery-ui.min.js" />
+    <Content Include="js\jquery.bookblock.js" />
+    <Content Include="js\jquery.bpopup.min.js" />
+    <Content Include="js\jquery.cookie.js" />
+    <Content Include="js\jquery.dataTables.js" />
+    <Content Include="js\jquery.dataTables.nightly.js" />
+    <Content Include="js\jquery.dlmenu.js" />
+    <Content Include="js\jquery.jeditable.js" />
+    <Content Include="js\jquery.nicescroll.js" />
+    <Content Include="js\jquery.resizable.js" />
+    <Content Include="js\jquery.sortable.js" />
+    <Content Include="js\jquery.sourcerer.js" />
+    <Content Include="js\jquery.totemticker.js" />
+    <Content Include="js\jquery.ui.core.min.js" />
+    <Content Include="js\jquery.ui.mouse.min.js" />
+    <Content Include="js\jquery.ui.sortable.min.js" />
+    <Content Include="js\jquery.ui.widget.min.js" />
+    <Content Include="js\jquery.uniform.js" />
+    <Content Include="js\jquerypp.custom.js" />
+    <Content Include="js\jsapi.js" />
+    <Content Include="js\login.js" />
+    <Content Include="js\modernizr.custom.79639.js" />
+    <Content Include="js\modernizr.custom.js" />
+    <Content Include="js\ui.spinner.js" />
+    <Content Include="js\zebra_tooltips.js" />
+    <Content Include="Pages\Investor\Active.aspx" />
+    <Content Include="Pages\Investor\Agree.aspx" />
+    <Content Include="Pages\Investor\Dashboard.aspx" />
+    <Content Include="Pages\Investor\FundWithdeawRequest.aspx" />
+    <Content Include="Pages\Investor\Instrument.aspx" />
+    <Content Include="Pages\Investor\InvestorProfile.aspx" />
+    <Content Include="Pages\Investor\IpoInformation.aspx" />
+    <Content Include="Pages\Investor\Ledger.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Pages\Investor\Logout.aspx" />
+    <Content Include="Pages\Investor\MarketStatus.aspx" />
+    <Content Include="Pages\Investor\OnHold.aspx" />
+    <Content Include="Pages\Investor\Order.aspx" />
+    <Content Include="Pages\Investor\OrderBroker.aspx" />
+    <Content Include="Pages\Investor\PopUpAddForm.aspx" />
+    <Content Include="Pages\Investor\PurchaseOrder.aspx" />
+    <Content Include="Pages\Investor\RegAndLogin.aspx" />
+    <Content Include="Pages\Investor\RegistrationConfirmation.aspx" />
+    <Content Include="Pages\Investor\Reports.aspx" />
+    <Content Include="Pages\Investor\SalesOrder.aspx" />
+    <Content Include="Pages\Investor\SystemAdmin.aspx" />
+    <Content Include="Pages\Investor\TermsAndPrivacyPolicy.aspx" />
+    <Content Include="Pages\Investor\Transaction.aspx" />
+    <Content Include="Pages\Investor\ReportViwer.aspx" />
+    <Content Include="Pages\Investor\Tax.aspx" />
+    <Content Include="Report\ReportGenerator.aspx" />
+    <Content Include="UserControl\ucUpcomingIPOs.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApprovedOriginal.aspx.cs">
+      <DependentUpon>ApprovedOriginal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApprovedOriginal.aspx.designer.cs">
+      <DependentUpon>ApprovedOriginal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Global.cs" />
+    <Compile Include="BOOpened.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BOOpened.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Functions.cs" />
+    <Compile Include="InvestorPortfolioStatement.cs">
+      <DependentUpon>InvestorPortfolioStatement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="InvestorTaxCertificate.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InvestorTaxCertificate.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IPOApplicationList.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IPOApplicationList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IpoStatement.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IpoStatement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IpoStatement2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IpoStatement2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IpoStatement3.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IpoStatement3.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LoginErrorPage.aspx.cs">
+      <DependentUpon>LoginErrorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginErrorPage.aspx.designer.cs">
+      <DependentUpon>LoginErrorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\Approved.aspx.cs">
+      <DependentUpon>Approved.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\Approved.aspx.designer.cs">
+      <DependentUpon>Approved.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\Declined.aspx.cs">
+      <DependentUpon>Declined.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\Declined.aspx.designer.cs">
+      <DependentUpon>Declined.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\IPOAplication.aspx.cs">
+      <DependentUpon>IPOAplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\IPOAplication.aspx.designer.cs">
+      <DependentUpon>IPOAplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\TermsAndPrivacyPolicy.aspx.cs">
+      <DependentUpon>TermsAndPrivacyPolicy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\TermsAndPrivacyPolicy.aspx.designer.cs">
+      <DependentUpon>TermsAndPrivacyPolicy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\BOOpenLoader.cs" />
+    <Compile Include="Pages\Investor\ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\OrderBroker.aspx.cs">
+      <DependentUpon>OrderBroker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\OrderBroker.aspx.designer.cs">
+      <DependentUpon>OrderBroker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\Reports.aspx.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\Reports.aspx.designer.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\Tax.aspx.cs">
+      <DependentUpon>Tax.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\Tax.aspx.designer.cs">
+      <DependentUpon>Tax.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\TradeConfirmationLoader.cs" />
+    <Compile Include="Report\InvestorPortfolioStatement.cs">
+      <DependentUpon>InvestorPortfolioStatement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Report\IPOApplicationlistLoader.cs" />
+    <Compile Include="Report\OrderLoader.cs" />
+    <Compile Include="Report\TaxReportLoader.cs" />
+    <Compile Include="Report\WithdrawalBrokerRequestLoader.cs" />
+    <Compile Include="TradeConfirmationSummaryNew.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TradeConfirmationSummaryNew.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WithdrawalRequest.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WithdrawalRequest.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WithdrawalRequest1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WithdrawalRequest1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Content Include="App_Code\CatpchaImage.cs" />
+    <Compile Include="App_Code\ChartData.cs" />
+    <Compile Include="App_Code\CommonFunction.cs" />
+    <Compile Include="App_Code\DatabaseConnection.cs" />
+    <Compile Include="App_Code\GetSession.cs" />
+    <Compile Include="App_Code\ResponseHelper.cs" />
+    <Compile Include="App_Code\BOSLEmailer3.5.cs" />
+    <Compile Include="Pages\Investor\ClientSupport.aspx.cs">
+      <DependentUpon>ClientSupport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\ClientSupport.aspx.designer.cs">
+      <DependentUpon>ClientSupport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DSEInstrumentLedger.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSEInstrumentLedger.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\FundWithdrawRequestBroker.aspx.cs">
+      <DependentUpon>FundWithdrawRequestBroker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\FundWithdrawRequestBroker.aspx.designer.cs">
+      <DependentUpon>FundWithdrawRequestBroker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\IpoReport.aspx.cs">
+      <DependentUpon>IpoReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\IpoReport.aspx.designer.cs">
+      <DependentUpon>IpoReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\Ipo.aspx.cs">
+      <DependentUpon>Ipo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\Ipo.aspx.designer.cs">
+      <DependentUpon>Ipo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\AllOrder.aspx.cs">
+      <DependentUpon>AllOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\AllOrder.aspx.designer.cs">
+      <DependentUpon>AllOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\BrokerInformation.aspx.cs">
+      <DependentUpon>BrokerInformation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\BrokerInformation.aspx.designer.cs">
+      <DependentUpon>BrokerInformation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrystalReportViewer.aspx.cs">
+      <DependentUpon>CrystalReportViewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrystalReportViewer.aspx.designer.cs">
+      <DependentUpon>CrystalReportViewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InstrumentWiseLedger.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InstrumentWiseLedger.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\Active.aspx.cs">
+      <DependentUpon>Active.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\Active.aspx.designer.cs">
+      <DependentUpon>Active.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\Agree.aspx.cs">
+      <DependentUpon>Agree.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\Agree.aspx.designer.cs">
+      <DependentUpon>Agree.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\GetInvestorPhoto.ashx.cs">
+      <DependentUpon>GetInvestorPhoto.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\GetInvestorSignature.ashx.cs">
+      <DependentUpon>GetInvestorSignature.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\InvestorProfile.aspx.cs">
+      <DependentUpon>InvestorProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\InvestorProfile.aspx.designer.cs">
+      <DependentUpon>InvestorProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\IpoInformation.aspx.cs">
+      <DependentUpon>IpoInformation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\IpoInformation.aspx.designer.cs">
+      <DependentUpon>IpoInformation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\OnHold.aspx.cs">
+      <DependentUpon>OnHold.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\OnHold.aspx.designer.cs">
+      <DependentUpon>OnHold.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\PopUpAddForm.aspx.cs">
+      <DependentUpon>PopUpAddForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\PopUpAddForm.aspx.designer.cs">
+      <DependentUpon>PopUpAddForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\PurchaseOrder.aspx.cs">
+      <DependentUpon>PurchaseOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\PurchaseOrder.aspx.designer.cs">
+      <DependentUpon>PurchaseOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\RegAndLogin.aspx.cs">
+      <DependentUpon>RegAndLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\RegAndLogin.aspx.designer.cs">
+      <DependentUpon>RegAndLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\RegistrationConfirmation.aspx.cs">
+      <DependentUpon>RegistrationConfirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\RegistrationConfirmation.aspx.designer.cs">
+      <DependentUpon>RegistrationConfirmation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\ReportViwer.aspx.cs">
+      <DependentUpon>ReportViwer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\ReportViwer.aspx.designer.cs">
+      <DependentUpon>ReportViwer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\SalesOrder.aspx.cs">
+      <DependentUpon>SalesOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\SalesOrder.aspx.designer.cs">
+      <DependentUpon>SalesOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\SystemAdmin.aspx.cs">
+      <DependentUpon>SystemAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\SystemAdmin.aspx.designer.cs">
+      <DependentUpon>SystemAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataServiceParameter.cs" />
+    <Compile Include="InvestorLedgerStatement.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InvestorLedgerStatement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Report\InvestorLedgerStatementLoader.cs" />
+    <Compile Include="Report\InvestorPortfolioStatementLoader.cs" />
+    <Compile Include="Report\IpoInformationLoader.cs" />
+    <Compile Include="Report\LedgerLoader.cs" />
+    <Compile Include="Report\ReportGenerator.aspx.cs">
+      <DependentUpon>ReportGenerator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\ReportGenerator.aspx.designer.cs">
+      <DependentUpon>ReportGenerator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\RijndaelEncryption.cs" />
+    <Compile Include="App_Code\ApplicationUser.cs" />
+    <Compile Include="UserControl\ucUpcomingIPOs.ascx.cs">
+      <DependentUpon>ucUpcomingIPOs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\ucUpcomingIPOs.ascx.designer.cs">
+      <DependentUpon>ucUpcomingIPOs.ascx</DependentUpon>
+    </Compile>
+    <Content Include="App_Code\Ticker.cs" />
+    <Compile Include="App_Code\SiteAttributes.cs" />
+    <Compile Include="Pages\Investor\Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\FundWithdeawRequest.aspx.cs">
+      <DependentUpon>FundWithdeawRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\FundWithdeawRequest.aspx.designer.cs">
+      <DependentUpon>FundWithdeawRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\GetPhoto.ashx.cs">
+      <DependentUpon>GetPhoto.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\GetSignature.ashx.cs">
+      <DependentUpon>GetSignature.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\Instrument.aspx.cs">
+      <DependentUpon>Instrument.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\Instrument.aspx.designer.cs">
+      <DependentUpon>Instrument.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\Ledger.aspx.cs">
+      <DependentUpon>Ledger.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\Ledger.aspx.designer.cs">
+      <DependentUpon>Ledger.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\MarketStatus.aspx.cs">
+      <DependentUpon>MarketStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\MarketStatus.aspx.designer.cs">
+      <DependentUpon>MarketStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\Order.aspx.cs">
+      <DependentUpon>Order.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\Order.aspx.designer.cs">
+      <DependentUpon>Order.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Investor\Transaction.aspx.cs">
+      <DependentUpon>Transaction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Investor\Transaction.aspx.designer.cs">
+      <DependentUpon>Transaction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="iTradex.Master.cs">
+      <DependentUpon>iTradex.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="iTradex.Master.designer.cs">
+      <DependentUpon>iTradex.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="js\help-plugins\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="iTradex.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="captcha.ashx" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="css\fonts\icomoon.eot" />
+    <None Include="css\fonts\icomoon.ttf" />
+    <None Include="css\fonts\icomoon.woff" />
+    <None Include="css\fonts\mourning.eot" />
+    <None Include="css\fonts\mourning.ttf" />
+    <None Include="css\fonts\mourning.woff" />
+    <Content Include="Pages\Investor\GetPhoto.ashx" />
+    <Content Include="Pages\Investor\GetSignature.ashx" />
+    <Content Include="Pages\Investor\GetInvestorPhoto.ashx" />
+    <Content Include="Pages\Investor\GetInvestorSignature.ashx" />
+    <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BOOpened.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BOOpened.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DSEInstrumentLedger.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DSEInstrumentLedger.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstrumentWiseLedger.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InstrumentWiseLedger.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Content Include="InvestorLedgerStatement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InvestorLedgerStatement.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="InvestorPortfolioStatement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InvestorPortfolioStatement.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvestorTaxCertificate.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InvestorTaxCertificate.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IPOApplicationList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>IPOApplicationList.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IpoStatement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>IpoStatement.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IpoStatement2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>IpoStatement2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IpoStatement3.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>IpoStatement3.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\InvestorPortfolioStatement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InvestorPortfolioStatement.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeConfirmationSummaryNew.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TradeConfirmationSummaryNew.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WithdrawalRequest.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>WithdrawalRequest.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WithdrawalRequest1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>WithdrawalRequest1.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2183</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v16.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

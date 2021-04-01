@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>F:\BOSL_Project\publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApprovedOriginal.aspx">
+      <publishTime>09/12/2020 14:26:30</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>09/06/2020 20:06:26</publishTime>
+    </File>
+    <File Include="bin/AjaxMin.dll">
+      <publishTime>09/06/2020 20:04:54</publishTime>
+    </File>
+    <File Include="bin/App_Code.compiled">
+      <publishTime>09/23/2020 21:58:31</publishTime>
+    </File>
+    <File Include="bin/App_Code.dll">
+      <publishTime>09/23/2020 21:58:30</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.CrystalReports.Engine.dll">
+      <publishTime>03/03/2011 17:25:16</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.ClientDoc.dll">
+      <publishTime>03/03/2011 17:25:16</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.CommLayer.dll">
+      <publishTime>03/03/2011 17:25:16</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.CommonControls.dll">
+      <publishTime>03/03/2011 17:25:16</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.CommonObjectModel.dll">
+      <publishTime>03/03/2011 17:25:16</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.Controllers.dll">
+      <publishTime>03/03/2011 17:25:18</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.CubeDefModel.dll">
+      <publishTime>03/03/2011 17:25:18</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.DataDefModel.dll">
+      <publishTime>03/03/2011 17:25:18</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.DataSetConversion.dll">
+      <publishTime>03/03/2011 17:25:18</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.ObjectFactory.dll">
+      <publishTime>03/03/2011 17:25:18</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.Prompting.dll">
+      <publishTime>03/03/2011 17:25:18</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.ReportDefModel.dll">
+      <publishTime>03/03/2011 17:25:18</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.XmlSerialize.dll">
+      <publishTime>03/03/2011 17:25:18</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportSource.dll">
+      <publishTime>03/03/2011 17:25:18</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.Shared.dll">
+      <publishTime>03/03/2011 17:25:18</publishTime>
+    </File>
+    <File Include="bin/DSEParser.dll">
+      <publishTime>09/06/2020 20:04:10</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>01/15/2011 18:47:12</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.pdb">
+      <publishTime>01/15/2011 18:47:12</publishTime>
+    </File>
+    <File Include="bin/InvestorLedgerStatement.rpt">
+      <publishTime>09/06/2020 20:03:08</publishTime>
+    </File>
+    <File Include="bin/InvestorPortfolioStatement.rpt">
+      <publishTime>09/06/2020 20:03:10</publishTime>
+    </File>
+    <File Include="bin/iTradex.UI.dll">
+      <publishTime>09/23/2020 21:58:26</publishTime>
+    </File>
+    <File Include="bin/iTradex.UI.pdb">
+      <publishTime>09/23/2020 21:58:26</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/14/2016 21:30:06</publishTime>
+    </File>
+    <File Include="bin/stdole.dll">
+      <publishTime>07/04/2020 11:38:04</publishTime>
+    </File>
+    <File Include="bin/Trirand.Web.dll">
+      <publishTime>09/06/2020 20:03:42</publishTime>
+    </File>
+    <File Include="captcha.ashx">
+      <publishTime>09/06/2020 20:03:20</publishTime>
+    </File>
+    <File Include="CrystalReportViewer.aspx">
+      <publishTime>09/06/2020 20:03:16</publishTime>
+    </File>
+    <File Include="css/animate.css">
+      <publishTime>09/06/2020 20:05:44</publishTime>
+    </File>
+    <File Include="css/blue.css">
+      <publishTime>09/06/2020 20:05:42</publishTime>
+    </File>
+    <File Include="css/bootstrap-responsive.min.css">
+      <publishTime>09/06/2020 20:05:40</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>09/06/2020 20:05:40</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>09/06/2020 20:05:38</publishTime>
+    </File>
+    <File Include="css/component.css">
+      <publishTime>09/06/2020 20:05:36</publishTime>
+    </File>
+    <File Include="css/dark.css">
+      <publishTime>09/06/2020 20:05:36</publishTime>
+    </File>
+    <File Include="css/dataTables.css">
+      <publishTime>09/06/2020 20:05:34</publishTime>
+    </File>
+    <File Include="css/datePicker.css">
+      <publishTime>09/06/2020 20:05:34</publishTime>
+    </File>
+    <File Include="css/DoWebCaptcha.css">
+      <publishTime>09/06/2020 20:05:32</publishTime>
+    </File>
+    <File Include="css/font.css">
+      <publishTime>09/06/2020 20:05:32</publishTime>
+    </File>
+    <File Include="css/fontello.css">
+      <publishTime>09/06/2020 20:05:30</publishTime>
+    </File>
+    <File Include="css/fonts/icomoon.svg">
+      <publishTime>09/06/2020 20:06:06</publishTime>
+    </File>
+    <File Include="css/fonts/mourning.svg">
+      <publishTime>09/06/2020 20:05:52</publishTime>
+    </File>
+    <File Include="css/gray.css">
+      <publishTime>09/06/2020 20:05:28</publishTime>
+    </File>
+    <File Include="css/green.css">
+      <publishTime>09/06/2020 20:05:28</publishTime>
+    </File>
+    <File Include="css/iconMoon.css">
+      <publishTime>09/06/2020 20:05:28</publishTime>
+    </File>
+    <File Include="css/ie.css">
+      <publishTime>09/06/2020 20:05:26</publishTime>
+    </File>
+    <File Include="css/introjs.css">
+      <publishTime>09/06/2020 20:05:24</publishTime>
+    </File>
+    <File Include="css/jquery-ui-1.8.19.custom.css">
+      <publishTime>09/06/2020 20:05:24</publishTime>
+    </File>
+    <File Include="css/jquery-ui.css">
+      <publishTime>09/06/2020 20:05:22</publishTime>
+    </File>
+    <File Include="css/jquery.fancybox-thumbs.css">
+      <publishTime>09/06/2020 20:05:20</publishTime>
+    </File>
+    <File Include="css/jquery.fancybox.css">
+      <publishTime>09/06/2020 20:05:20</publishTime>
+    </File>
+    <File Include="css/mika-style.css">
+      <publishTime>09/06/2020 20:05:20</publishTime>
+    </File>
+    <File Include="css/mika-styles.css">
+      <publishTime>09/06/2020 20:05:16</publishTime>
+    </File>
+    <File Include="css/newsTicker.css">
+      <publishTime>09/06/2020 20:05:14</publishTime>
+    </File>
+    <File Include="css/Newstyle.css">
+      <publishTime>09/06/2020 20:05:14</publishTime>
+    </File>
+    <File Include="css/noJS.css">
+      <publishTime>09/06/2020 20:05:10</publishTime>
+    </File>
+    <File Include="css/plugins.css">
+      <publishTime>09/06/2020 20:05:08</publishTime>
+    </File>
+    <File Include="css/prettify.css">
+      <publishTime>09/06/2020 20:05:06</publishTime>
+    </File>
+    <File Include="css/reset.css">
+      <publishTime>09/06/2020 20:05:04</publishTime>
+    </File>
+    <File Include="css/responsive.css">
+      <publishTime>09/06/2020 20:05:04</publishTime>
+    </File>
+    <File Include="css/settings.css">
+      <publishTime>09/06/2020 20:05:04</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>09/06/2020 20:05:02</publishTime>
+    </File>
+    <File Include="css/styles.css">
+      <publishTime>09/06/2020 20:05:00</publishTime>
+    </File>
+    <File Include="css/ui.daterangepicker.css">
+      <publishTime>09/06/2020 20:04:58</publishTime>
+    </File>
+    <File Include="css/ui_custom.css">
+      <publishTime>09/06/2020 20:04:58</publishTime>
+    </File>
+    <File Include="css/zebra_tooltips.css">
+      <publishTime>09/06/2020 20:04:56</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>09/06/2020 20:03:14</publishTime>
+    </File>
+    <File Include="images/div.png">
+      <publishTime>09/06/2020 20:06:26</publishTime>
+    </File>
+    <File Include="images/down.png">
+      <publishTime>09/06/2020 20:06:26</publishTime>
+    </File>
+    <File Include="images/leftArrow.png">
+      <publishTime>09/06/2020 20:06:24</publishTime>
+    </File>
+    <File Include="images/loginControl.png">
+      <publishTime>09/06/2020 20:06:22</publishTime>
+    </File>
+    <File Include="images/logo.png">
+      <publishTime>09/06/2020 20:06:22</publishTime>
+    </File>
+    <File Include="images/nav.png">
+      <publishTime>09/06/2020 20:06:22</publishTime>
+    </File>
+    <File Include="images/nav_small.png">
+      <publishTime>09/06/2020 20:06:20</publishTime>
+    </File>
+    <File Include="images/rightArrow.png">
+      <publishTime>09/06/2020 20:06:20</publishTime>
+    </File>
+    <File Include="images/searchSmall.png">
+      <publishTime>09/06/2020 20:06:20</publishTime>
+    </File>
+    <File Include="images/selectArrow.png">
+      <publishTime>09/06/2020 20:06:18</publishTime>
+    </File>
+    <File Include="images/sort.png">
+      <publishTime>09/06/2020 20:06:18</publishTime>
+    </File>
+    <File Include="images/sortDown.png">
+      <publishTime>09/06/2020 20:06:18</publishTime>
+    </File>
+    <File Include="images/sortUp.png">
+      <publishTime>09/06/2020 20:06:16</publishTime>
+    </File>
+    <File Include="images/sort_asc.png">
+      <publishTime>09/06/2020 20:06:16</publishTime>
+    </File>
+    <File Include="images/sort_both.png">
+      <publishTime>09/06/2020 20:06:16</publishTime>
+    </File>
+    <File Include="images/sort_desc.png">
+      <publishTime>09/06/2020 20:06:16</publishTime>
+    </File>
+    <File Include="images/sort_desc_disabled.png">
+      <publishTime>09/06/2020 20:06:14</publishTime>
+    </File>
+    <File Include="images/subArrow.png">
+      <publishTime>09/06/2020 20:06:14</publishTime>
+    </File>
+    <File Include="images/tipsy.gif">
+      <publishTime>09/06/2020 20:06:14</publishTime>
+    </File>
+    <File Include="images/up.png">
+      <publishTime>09/06/2020 20:06:12</publishTime>
+    </File>
+    <File Include="images/updateDone.png">
+      <publishTime>09/06/2020 20:06:12</publishTime>
+    </File>
+    <File Include="images/userLogin2.png">
+      <publishTime>09/06/2020 20:06:10</publishTime>
+    </File>
+    <File Include="images/widgetDiv.png">
+      <publishTime>09/06/2020 20:06:08</publishTime>
+    </File>
+    <File Include="img/addFiles.png">
+      <publishTime>09/06/2020 20:06:56</publishTime>
+    </File>
+    <File Include="img/ajax-loader-metro.gif">
+      <publishTime>09/06/2020 20:06:58</publishTime>
+    </File>
+    <File Include="img/as.png">
+      <publishTime>09/06/2020 20:06:54</publishTime>
+    </File>
+    <File Include="img/body.jpg">
+      <publishTime>09/06/2020 20:06:54</publishTime>
+    </File>
+    <File Include="img/body_bk.png">
+      <publishTime>09/06/2020 20:06:54</publishTime>
+    </File>
+    <File Include="img/calculator.png">
+      <publishTime>09/06/2020 20:06:54</publishTime>
+    </File>
+    <File Include="img/cancel.png">
+      <publishTime>09/06/2020 20:06:54</publishTime>
+    </File>
+    <File Include="img/capital.png">
+      <publishTime>09/06/2020 20:06:54</publishTime>
+    </File>
+    <File Include="img/checkboxes.png">
+      <publishTime>09/06/2020 20:06:52</publishTime>
+    </File>
+    <File Include="img/contact-hover.png">
+      <publishTime>09/06/2020 20:06:54</publishTime>
+    </File>
+    <File Include="img/contact.png">
+      <publishTime>09/06/2020 20:06:52</publishTime>
+    </File>
+    <File Include="img/dashboard.png">
+      <publishTime>09/06/2020 20:06:52</publishTime>
+    </File>
+    <File Include="img/deposit.png">
+      <publishTime>09/06/2020 20:06:52</publishTime>
+    </File>
+    <File Include="img/down.png">
+      <publishTime>09/06/2020 20:06:52</publishTime>
+    </File>
+    <File Include="img/facebook.png">
+      <publishTime>09/06/2020 20:06:50</publishTime>
+    </File>
+    <File Include="img/favicon.png">
+      <publishTime>09/06/2020 20:06:50</publishTime>
+    </File>
+    <File Include="img/glyphicons-halflings-white.png">
+      <publishTime>09/06/2020 20:06:50</publishTime>
+    </File>
+    <File Include="img/glyphicons-halflings.png">
+      <publishTime>09/06/2020 20:06:50</publishTime>
+    </File>
+    <File Include="img/info.png">
+      <publishTime>09/06/2020 20:06:50</publishTime>
+    </File>
+    <File Include="img/investor-pic.png">
+      <publishTime>09/06/2020 20:06:48</publishTime>
+    </File>
+    <File Include="img/investor-signature.png">
+      <publishTime>09/06/2020 20:06:46</publishTime>
+    </File>
+    <File Include="img/iStock Broking_1366464526982.png">
+      <publishTime>09/06/2020 20:06:48</publishTime>
+    </File>
+    <File Include="img/iTradex Logo.png">
+      <publishTime>09/06/2020 20:06:46</publishTime>
+    </File>
+    <File Include="img/iTradex-Icon.png">
+      <publishTime>09/06/2020 20:06:44</publishTime>
+    </File>
+    <File Include="img/iTradex-Logo-Footer.png">
+      <publishTime>09/06/2020 20:06:46</publishTime>
+    </File>
+    <File Include="img/ledger.png">
+      <publishTime>09/06/2020 20:06:44</publishTime>
+    </File>
+    <File Include="img/line-chart.png">
+      <publishTime>09/06/2020 20:06:44</publishTime>
+    </File>
+    <File Include="img/linkedin.png">
+      <publishTime>09/06/2020 20:06:44</publishTime>
+    </File>
+    <File Include="img/log-out.png">
+      <publishTime>09/06/2020 20:06:42</publishTime>
+    </File>
+    <File Include="img/loginControl.png">
+      <publishTime>09/06/2020 20:06:42</publishTime>
+    </File>
+    <File Include="img/logo-dark.png">
+      <publishTime>09/06/2020 20:06:42</publishTime>
+    </File>
+    <File Include="img/logo.png">
+      <publishTime>09/06/2020 20:06:42</publishTime>
+    </File>
+    <File Include="img/logout-hover.png">
+      <publishTime>09/06/2020 20:06:42</publishTime>
+    </File>
+    <File Include="img/market_status.png">
+      <publishTime>09/06/2020 20:06:42</publishTime>
+    </File>
+    <File Include="img/max.png">
+      <publishTime>09/06/2020 20:06:42</publishTime>
+    </File>
+    <File Include="img/MikaNew.png">
+      <publishTime>09/06/2020 20:06:40</publishTime>
+    </File>
+    <File Include="img/MikaSecuritiesDSE.png">
+      <publishTime>09/06/2020 20:06:40</publishTime>
+    </File>
+    <File Include="img/min.png">
+      <publishTime>09/06/2020 20:06:40</publishTime>
+    </File>
+    <File Include="img/next.png">
+      <publishTime>09/06/2020 20:06:40</publishTime>
+    </File>
+    <File Include="img/order.png">
+      <publishTime>09/06/2020 20:06:40</publishTime>
+    </File>
+    <File Include="img/prev.png">
+      <publishTime>09/06/2020 20:06:40</publishTime>
+    </File>
+    <File Include="img/ps.png">
+      <publishTime>09/06/2020 20:06:38</publishTime>
+    </File>
+    <File Include="img/radios.png">
+      <publishTime>09/06/2020 20:06:38</publishTime>
+    </File>
+    <File Include="img/registration-help.png">
+      <publishTime>09/06/2020 20:06:38</publishTime>
+    </File>
+    <File Include="img/selectArrow.png">
+      <publishTime>09/06/2020 20:06:36</publishTime>
+    </File>
+    <File Include="img/settings-hover.png">
+      <publishTime>09/06/2020 20:06:36</publishTime>
+    </File>
+    <File Include="img/settings.png">
+      <publishTime>09/06/2020 20:06:38</publishTime>
+    </File>
+    <File Include="img/signature.png">
+      <publishTime>09/06/2020 20:06:36</publishTime>
+    </File>
+    <File Include="img/spinnerBottom.png">
+      <publishTime>09/06/2020 20:06:34</publishTime>
+    </File>
+    <File Include="img/spinnerTop.png">
+      <publishTime>09/06/2020 20:06:34</publishTime>
+    </File>
+    <File Include="img/tagline.png">
+      <publishTime>09/06/2020 20:06:34</publishTime>
+    </File>
+    <File Include="img/tagline2.png">
+      <publishTime>09/06/2020 20:06:34</publishTime>
+    </File>
+    <File Include="img/tagline3.png">
+      <publishTime>09/06/2020 20:06:32</publishTime>
+    </File>
+    <File Include="img/time.png">
+      <publishTime>09/06/2020 20:06:34</publishTime>
+    </File>
+    <File Include="img/tkdown.gif">
+      <publishTime>09/06/2020 20:06:32</publishTime>
+    </File>
+    <File Include="img/tkup.gif">
+      <publishTime>09/06/2020 20:06:32</publishTime>
+    </File>
+    <File Include="img/transaction.png">
+      <publishTime>09/06/2020 20:06:32</publishTime>
+    </File>
+    <File Include="img/twitter.png">
+      <publishTime>09/06/2020 20:06:32</publishTime>
+    </File>
+    <File Include="img/up.png">
+      <publishTime>09/06/2020 20:06:32</publishTime>
+    </File>
+    <File Include="img/user.png">
+      <publishTime>09/06/2020 20:06:30</publishTime>
+    </File>
+    <File Include="img/UserAvater.png">
+      <publishTime>09/06/2020 20:06:30</publishTime>
+    </File>
+    <File Include="img/userLogin2.png">
+      <publishTime>09/06/2020 20:06:30</publishTime>
+    </File>
+    <File Include="img/vertical-nav-active.png">
+      <publishTime>09/06/2020 20:06:30</publishTime>
+    </File>
+    <File Include="img/widget-settings.png">
+      <publishTime>09/06/2020 20:06:28</publishTime>
+    </File>
+    <File Include="img/youtube.png">
+      <publishTime>09/06/2020 20:06:28</publishTime>
+    </File>
+    <File Include="InvestorLedgerStatement.rpt">
+      <publishTime>09/06/2020 20:03:08</publishTime>
+    </File>
+    <File Include="iTradex.Master">
+      <publishTime>09/06/2020 20:02:56</publishTime>
+    </File>
+    <File Include="js/bootstrap-alert.js">
+      <publishTime>09/06/2020 20:07:30</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>09/06/2020 20:07:28</publishTime>
+    </File>
+    <File Include="js/dataTables.fixedColumns.js">
+      <publishTime>09/06/2020 20:07:26</publishTime>
+    </File>
+    <File Include="js/date.js">
+      <publishTime>09/06/2020 20:07:24</publishTime>
+    </File>
+    <File Include="js/daterangepicker.jQuery.js">
+      <publishTime>09/06/2020 20:07:24</publishTime>
+    </File>
+    <File Include="js/intro.js">
+      <publishTime>09/06/2020 20:07:22</publishTime>
+    </File>
+    <File Include="js/jquery-1.9.1.min.js">
+      <publishTime>09/06/2020 20:07:22</publishTime>
+    </File>
+    <File Include="js/jquery-ui.min.js">
+      <publishTime>09/06/2020 20:07:16</publishTime>
+    </File>
+    <File Include="js/jquery.bookblock.js">
+      <publishTime>09/06/2020 20:07:12</publishTime>
+    </File>
+    <File Include="js/jquery.bpopup.min.js">
+      <publishTime>09/06/2020 20:07:12</publishTime>
+    </File>
+    <File Include="js/jquery.cookie.js">
+      <publishTime>09/06/2020 20:07:10</publishTime>
+    </File>
+    <File Include="js/jquery.dataTables.editable.js">
+      <publishTime>09/06/2020 20:07:10</publishTime>
+    </File>
+    <File Include="js/jquery.dataTables.js">
+      <publishTime>09/06/2020 20:07:10</publishTime>
+    </File>
+    <File Include="js/jquery.dataTables.nightly.js">
+      <publishTime>09/06/2020 20:07:12</publishTime>
+    </File>
+    <File Include="js/jquery.datePicker.js">
+      <publishTime>09/06/2020 20:07:08</publishTime>
+    </File>
+    <File Include="js/jquery.dlmenu.js">
+      <publishTime>09/06/2020 20:07:06</publishTime>
+    </File>
+    <File Include="js/jquery.jeditable.js">
+      <publishTime>09/06/2020 20:07:06</publishTime>
+    </File>
+    <File Include="js/jquery.nicescroll.js">
+      <publishTime>09/06/2020 20:07:06</publishTime>
+    </File>
+    <File Include="js/jquery.resizable.js">
+      <publishTime>09/06/2020 20:07:04</publishTime>
+    </File>
+    <File Include="js/jquery.sortable.js">
+      <publishTime>09/06/2020 20:07:04</publishTime>
+    </File>
+    <File Include="js/jquery.sourcerer.js">
+      <publishTime>09/06/2020 20:07:04</publishTime>
+    </File>
+    <File Include="js/jquery.totemticker.js">
+      <publishTime>09/06/2020 20:07:02</publishTime>
+    </File>
+    <File Include="js/jquery.ui.core.min.js">
+      <publishTime>09/06/2020 20:07:02</publishTime>
+    </File>
+    <File Include="js/jquery.ui.mouse.min.js">
+      <publishTime>09/06/2020 20:07:02</publishTime>
+    </File>
+    <File Include="js/jquery.ui.sortable.min.js">
+      <publishTime>09/06/2020 20:07:02</publishTime>
+    </File>
+    <File Include="js/jquery.ui.widget.min.js">
+      <publishTime>09/06/2020 20:07:02</publishTime>
+    </File>
+    <File Include="js/jquery.uniform.js">
+      <publishTime>09/06/2020 20:07:00</publishTime>
+    </File>
+    <File Include="js/jquerypp.custom.js">
+      <publishTime>09/06/2020 20:07:00</publishTime>
+    </File>
+    <File Include="js/jsapi.js">
+      <publishTime>09/06/2020 20:07:00</publishTime>
+    </File>
+    <File Include="js/login.js">
+      <publishTime>09/06/2020 20:06:58</publishTime>
+    </File>
+    <File Include="js/modernizr.custom.79639.js">
+      <publishTime>09/06/2020 20:07:00</publishTime>
+    </File>
+    <File Include="js/modernizr.custom.js">
+      <publishTime>09/06/2020 20:06:58</publishTime>
+    </File>
+    <File Include="js/ui.spinner.js">
+      <publishTime>09/06/2020 20:06:58</publishTime>
+    </File>
+    <File Include="js/zebra_tooltips.js">
+      <publishTime>09/06/2020 20:06:56</publishTime>
+    </File>
+    <File Include="LoginErrorPage.aspx">
+      <publishTime>09/06/2020 20:02:52</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/16/2020 05:30:06</publishTime>
+    </File>
+    <File Include="Pages/Investor/Active.aspx">
+      <publishTime>09/06/2020 20:12:02</publishTime>
+    </File>
+    <File Include="Pages/Investor/Agree.aspx">
+      <publishTime>09/06/2020 20:12:00</publishTime>
+    </File>
+    <File Include="Pages/Investor/AllOrder.aspx">
+      <publishTime>09/06/2020 20:12:00</publishTime>
+    </File>
+    <File Include="Pages/Investor/Approved.aspx">
+      <publishTime>09/12/2020 00:08:22</publishTime>
+    </File>
+    <File Include="Pages/Investor/BrokerInformation.aspx">
+      <publishTime>09/06/2020 20:11:58</publishTime>
+    </File>
+    <File Include="Pages/Investor/ClientSupport.aspx">
+      <publishTime>09/06/2020 20:11:56</publishTime>
+    </File>
+    <File Include="Pages/Investor/Dashboard.aspx">
+      <publishTime>09/23/2020 20:57:29</publishTime>
+    </File>
+    <File Include="Pages/Investor/Declined.aspx">
+      <publishTime>09/12/2020 14:22:28</publishTime>
+    </File>
+    <File Include="Pages/Investor/ForgotPassword.aspx">
+      <publishTime>09/06/2020 20:11:52</publishTime>
+    </File>
+    <File Include="Pages/Investor/FundWithdeawRequest.aspx">
+      <publishTime>09/09/2020 20:51:48</publishTime>
+    </File>
+    <File Include="Pages/Investor/FundWithdrawRequestBroker.aspx">
+      <publishTime>09/06/2020 20:11:46</publishTime>
+    </File>
+    <File Include="Pages/Investor/GetInvestorPhoto.ashx">
+      <publishTime>09/06/2020 20:11:44</publishTime>
+    </File>
+    <File Include="Pages/Investor/GetInvestorSignature.ashx">
+      <publishTime>09/06/2020 20:11:44</publishTime>
+    </File>
+    <File Include="Pages/Investor/GetPhoto.ashx">
+      <publishTime>09/06/2020 20:11:42</publishTime>
+    </File>
+    <File Include="Pages/Investor/GetSignature.ashx">
+      <publishTime>09/06/2020 20:11:42</publishTime>
+    </File>
+    <File Include="Pages/Investor/Instrument.aspx">
+      <publishTime>09/06/2020 20:11:42</publishTime>
+    </File>
+    <File Include="Pages/Investor/InvestorProfile.aspx">
+      <publishTime>09/06/2020 20:11:40</publishTime>
+    </File>
+    <File Include="Pages/Investor/Ipo.aspx">
+      <publishTime>09/06/2020 20:11:40</publishTime>
+    </File>
+    <File Include="Pages/Investor/IPOAplication.aspx">
+      <publishTime>09/06/2020 20:11:38</publishTime>
+    </File>
+    <File Include="Pages/Investor/IpoInformation.aspx">
+      <publishTime>09/06/2020 20:11:36</publishTime>
+    </File>
+    <File Include="Pages/Investor/IpoReport.aspx">
+      <publishTime>09/06/2020 20:11:36</publishTime>
+    </File>
+    <File Include="Pages/Investor/Ledger.aspx">
+      <publishTime>09/06/2020 20:11:34</publishTime>
+    </File>
+    <File Include="Pages/Investor/Logout.aspx">
+      <publishTime>09/06/2020 20:11:30</publishTime>
+    </File>
+    <File Include="Pages/Investor/MarketStatus.aspx">
+      <publishTime>09/06/2020 20:11:30</publishTime>
+    </File>
+    <File Include="Pages/Investor/OnHold.aspx">
+      <publishTime>09/06/2020 20:11:28</publishTime>
+    </File>
+    <File Include="Pages/Investor/Order.aspx">
+      <publishTime>09/06/2020 20:11:26</publishTime>
+    </File>
+    <File Include="Pages/Investor/OrderBroker.aspx">
+      <publishTime>09/06/2020 20:11:26</publishTime>
+    </File>
+    <File Include="Pages/Investor/PopUpAddForm.aspx">
+      <publishTime>09/06/2020 20:11:24</publishTime>
+    </File>
+    <File Include="Pages/Investor/PurchaseOrder.aspx">
+      <publishTime>09/06/2020 20:11:22</publishTime>
+    </File>
+    <File Include="Pages/Investor/RegAndLogin.aspx">
+      <publishTime>09/06/2020 20:11:22</publishTime>
+    </File>
+    <File Include="Pages/Investor/RegistrationConfirmation.aspx">
+      <publishTime>09/06/2020 20:11:20</publishTime>
+    </File>
+    <File Include="Pages/Investor/Reports.aspx">
+      <publishTime>09/06/2020 20:11:18</publishTime>
+    </File>
+    <File Include="Pages/Investor/ReportViwer.aspx">
+      <publishTime>09/06/2020 20:11:18</publishTime>
+    </File>
+    <File Include="Pages/Investor/SalesOrder.aspx">
+      <publishTime>09/06/2020 20:11:16</publishTime>
+    </File>
+    <File Include="Pages/Investor/SystemAdmin.aspx">
+      <publishTime>09/06/2020 20:11:16</publishTime>
+    </File>
+    <File Include="Pages/Investor/Tax.aspx">
+      <publishTime>09/06/2020 20:11:14</publishTime>
+    </File>
+    <File Include="Pages/Investor/TermsAndPrivacyPolicy.aspx">
+      <publishTime>09/12/2020 14:39:26</publishTime>
+    </File>
+    <File Include="Pages/Investor/Transaction.aspx">
+      <publishTime>09/06/2020 20:11:14</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>09/23/2020 21:58:28</publishTime>
+    </File>
+    <File Include="Report/ReportGenerator.aspx">
+      <publishTime>09/06/2020 20:12:06</publishTime>
+    </File>
+    <File Include="UserControl/ucUpcomingIPOs.ascx">
+      <publishTime>09/06/2020 20:12:24</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/22/2020 00:17:05</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
